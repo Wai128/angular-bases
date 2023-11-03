@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CouterModule } from './counter/couter.module';
 import { HeroesModule } from './heroes/heroes.module';
+import {DbzModule} from './dbz/dbz.module';
 
 
 
@@ -22,6 +23,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     CouterModule,
     HeroesModule,
+    DbzModule,
 
   ],
   providers: [],
